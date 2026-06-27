@@ -64,3 +64,17 @@ terms = [
     transparency,
     crypto_assets,
 ]
+
+print("Reference:", record.code)
+print("Address:", profile.address)
+print("Connection:", provider.is_connected())
+
+for item in terms:
+    print(item)
+
+print("Gas:", operation["gas"])
+print("Nonce:", operation["nonce"])
+print("Created:", record.date)
+print("Interaction logged")
+print("Execution completed")
+```
